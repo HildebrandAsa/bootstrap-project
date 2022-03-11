@@ -2,3 +2,21 @@
   display: flex;
   padding: 20px 0 20px 0;
 }
+
+.mobile-nav {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+}

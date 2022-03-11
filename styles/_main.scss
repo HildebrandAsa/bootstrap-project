@@ -10,15 +10,37 @@
 }
 
 .card-img-overlay p {
-  margin-top: 30px;
   font-size: 20px;
+}
+
+.card-img-overlay a {
+  width: 80px;
+  align-self: center;
 }
 
 .mobile-section {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+.fa-paw {
+  font-size: 46px;
+  margin-right: 50px;
+}
+
+.col {
+  margin: 20px 20px;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.bg-success:hover {
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width: 700px) {
   .desktop-section {
     display: none;
   }
@@ -41,5 +63,9 @@
   .card-img-overlay p {
     margin: 10px 20px 10px 0;
     font-size: 15px;
+  }
+
+  .container {
+    margin-top: 20px;
   }
 }
